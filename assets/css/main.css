@@ -21,3 +21,15 @@ a{
 a:hover{
   font-weight: bold;
 }
+
+#fotos{
+  padding: 10px 15%;
+}
+
+.fotopanda{
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  filter: grayscale(100%);
+  border: 4px solid #535351;
+}
