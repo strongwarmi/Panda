@@ -1,8 +1,12 @@
-window.addEventListener('load',function(){
-var fotospandas=document.getElementsByClassName("ContenedorFoto");
-console.log(fotospandas);
+//window.addEventListener('load',function(){
+var ekis=document.getElementsByClassName("button_x");
+console.log(ekis);
 
-});
-ekis1.addEventListener("click",function(){
-  document.getElementById("panda1").style.display="none";
-});
+  ekis[i].addEventListener("click",function(){
+    var indice = i+1;
+    console.log(indice);
+    var DivPanda = "panda" +indice;
+    DivPanda.style.display="none";
+  });
+
+//});//fin load
