@@ -28,12 +28,26 @@ a:hover{
   padding: 10px 15%;
 }
 
+.ContenedorFoto{
+  display: inline-block;
+  position: relative;
+}
 .fotopanda{
   width: 150px;
   height: 150px;
   margin: 10px;
   filter: grayscale(100%);
   border: 4px solid #535351;
+}
+
+.button_x{
+  cursor: pointer;
+  top: 20px;
+  margin-left: 20px;
+  position: absolute;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Arial,sans-serif;
 }
 
 .btn{
@@ -49,4 +63,7 @@ a:hover{
   width: 45%;
   padding: 10px 40px 10px 0px;
   text-align: justify;
+}
+.OcultaFoto{
+  display: none;
 }
