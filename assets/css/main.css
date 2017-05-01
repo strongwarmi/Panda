@@ -67,3 +67,6 @@ a:hover{
 .OcultaFoto{
   display: none;
 }
+.MuestraFoto{
+  display: block;
+}

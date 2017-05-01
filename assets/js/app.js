@@ -1,12 +1,20 @@
-//window.addEventListener('load',function(){
+window.addEventListener('load',function(){
 var ekis=document.getElementsByClassName("button_x");
-console.log(ekis);
-
-  ekis[i].addEventListener("click",function(){
-    var indice = i+1;
-    console.log(indice);
-    var DivPanda = "panda" +indice;
-    DivPanda.style.display="none";
-  });
-
-//});//fin load
+var DivsPandas= document.getElementsByClassName("ContenedorFoto");
+//console.log(ekis);
+btnpanda1.addEventListener('click',function(){
+  panda1.style.display="none";
+});
+btnpanda2.addEventListener('click',function(){
+  panda2.style.display="none";
+});
+btnpanda3.addEventListener('click',function(){
+  panda3.style.display="none";
+});
+btnpanda4.addEventListener('click',function(){
+  panda4.style.display="none";
+});
+restaura.addEventListener('click',function(){
+  //DivsPandas.classList.add("MuestraFoto");
+});
+});//fin load
