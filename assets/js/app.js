@@ -14,7 +14,26 @@ btnpanda3.addEventListener('click',function(){
 btnpanda4.addEventListener('click',function(){
   panda4.style.display="none";
 });
+;
+});//fin load
 restaura.addEventListener('click',function(){
   //DivsPandas.classList.add("MuestraFoto");
+  panda1.style.display="inline-block";
+  panda2.style.display="inline-block";
+  panda3.style.display="inline-block";
+  panda4.style.display="inline-block";
+})
+origen.addEventListener('click',function(){
+  if (TextOrigen.style.display == "none") {
+    TextOrigen.style.display="inline-block";
+  }else {
+    TextOrigen.style.display="none";
+  }
 });
-});//fin load
+historia.addEventListener('click',function(){
+  if (TextHistoria.style.display == "none") {
+    TextHistoria.style.display = "inline-block";
+  }else {
+    TextHistoria.style.display = "none";
+  }
+});

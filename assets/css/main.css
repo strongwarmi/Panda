@@ -20,6 +20,7 @@ a{
 
 a:hover{
   font-weight: bold;
+  cursor: pointer;
 }
 
 #fotos,
@@ -63,10 +64,4 @@ a:hover{
   width: 45%;
   padding: 10px 40px 10px 0px;
   text-align: justify;
-}
-.OcultaFoto{
-  display: none;
-}
-.MuestraFoto{
-  display: block;
 }
